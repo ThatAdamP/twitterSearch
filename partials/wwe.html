@@ -1,0 +1,44 @@
+<link href="https://fonts.googleapis.com/css?family=Amarante|Averia+Serif+Libre|Press+Start+2P" rel="stylesheet">
+
+<style>
+
+body {
+	background-image: url("images/smoke.jpg");
+}
+h1 {
+	font-family: 'Amarante', cursive;
+	color: #980000;
+	text-align: center;
+}
+h2 {
+	color: #4099FF;
+	text-align: center;
+}
+h3 {
+	color: white;
+	font-family: "futura";
+}
+em {
+	color: salmon;
+}
+
+
+</style>
+
+<h1>WWE NEWS</h1><br>
+
+<div ng-repeat="tweet in feed.tweets"><br><br><br>
+	<h3>{{ tweet.author.fullName }}
+	<em>{{ tweet.author.nickName }}</em>
+	{{ tweet.updated }}<br>
+	{{ tweet.text }}</h3>
+	<img src="{{ tweet.author.avatar }}">
+	<a href="{{ tweet.author.url }}">{{ tweet.author.url }}</a>
+</div>
+
+
+<br><br><br>
+<h2>WRESTLING OR ALIENS?<BR>CHOOSE WISELY</h2></div>
+
+<div id="belt"><a href="#wwe"><img src="images/twitbelt.png"></a></div>
+<div id="ufo"><a href="#ufo"><img src="images/twitufo.png"></a></div>

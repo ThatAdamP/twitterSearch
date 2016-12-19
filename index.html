@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Twitter App</title>
+	<link rel="stylesheet" type="text/css" href="styles/mystyles.css">
+	<script src="scripts/angular.min.js"></script>
+	<script src="scripts/angular-route.js"></script>
+	<script src="scripts/ng-tweet.js"></script>
+
+</head>
+<body ng-app="twitterApp"></div>
+<nav>
+	<ul>
+		<li><a href="#/"><img src="images/house.png"></a></li>
+		<li><a href="#wwe"><img src="images/wwe.png"></a></li>
+		<li><a href="#ufo"><img src="images/ufo.png"></a></li>
+	</ul>
+</nav>
+
+<div id="viewContainer">
+	<div ng-view></div>
+</div>
+
+	
+<script src="scripts/jquery.js"></script>
+<script src="scripts/myscripts.js"></script>
+</body>
+</html>

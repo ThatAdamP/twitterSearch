@@ -1,0 +1,24 @@
+body,html {
+	padding: 0px;
+	margin: 0px;
+	font-family: helvetica, sans-serif;
+}
+nav	{
+	width: 100%;
+	background-color: #4099FF;
+	height: 85px;
+	align-items: center;
+}
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+}
+#belt {
+	float: left;
+}
+#ufo {
+	float: right;
+}
